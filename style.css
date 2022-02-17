@@ -1,0 +1,45 @@
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: rgb(36, 36, 36);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#button-container{
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: inset 0px 20px 4px -19px white ;
+}
+
+button{
+  cursor:pointer;
+  outline: none;
+  width:140px;
+  height:80px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: white;
+  text-shadow: 0 2px 5px black;
+  background: linear-gradient(to top, rgb(39, 39, 39),rgb(71, 70, 70));
+  border: 2px solid black;
+  border-radius: 7px;
+  box-shadow: inset 0px 20px 4px -19px white, 0 12px 12px 0 rgba(0, 0, 0, 0.329) ;
+}
+
+
+button:hover{
+  background: linear-gradient(to bottom, rgb(39, 39, 39),rgb(71, 70, 70));
+}
+
+button:active{
+  transform: translateY(3px);
+  box-shadow: inset 0px 20px 4px -19px white, 0 6px 6px 0 rgba(0, 0, 0, 0.329) ;
+}
